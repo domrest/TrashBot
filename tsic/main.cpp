@@ -18,6 +18,6 @@ int main(){
         if (received){
             std::cout << detector1Temp;
         }
-        _sleep(1);
+        sleep(1);
     }
 }
