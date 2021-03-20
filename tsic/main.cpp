@@ -49,9 +49,8 @@ int main(){
         }
         if (*detectors->valid2){
             cout << "detector 2: "<< *detectors->temp2 <<endl;
-
         }
-        cout <<endl <<endl;
+        cout << endl << endl;
         sleep(0.2);
     }
 }
