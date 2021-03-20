@@ -23,8 +23,6 @@ int main(){
 
 
     while (1){
-        cout << "1 Sec passed"<<endl;
-
         bool received1 = detector1->getDegrees(detector1Temp);
         bool received2 = detector2->getDegrees(detector2Temp);
 
@@ -35,6 +33,7 @@ int main(){
             cout << "detector 2: "<< detector2Temp <<endl;
 
         }
-        sleep(1);
+        cout <<endl <<endl;
+        sleep(0.2);
     }
 }
