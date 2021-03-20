@@ -14,18 +14,26 @@ int main(){
 
     TSIC* detector1 = new TSIC();
     detector1->open(14);
-    cout << "Detector opened"<<endl;
+    TSIC* detector2 = new TSIC();
+    detector2->open(15);
+    cout << "Detectors opened"<<endl;
 
     double detector1Temp= 0.0;
+    double detector2Temp= 0.0;
+
 
     while (1){
         cout << "1 Sec passed"<<endl;
 
-        bool received = detector1->getDegrees(detector1Temp);
-        if (received){
+        bool received1 = detector1->getDegrees(detector1Temp);
+        bool received2 = detector2->getDegrees(detector2Temp);
+
+        if (received1){
             cout << "detector 1: "<< detector1Temp <<endl;
-        } else {
-            cout << "Still invalid" <<endl;
+        }
+        if (received2){
+            cout << "detector 2: "<< detector2Temp <<endl;
+
         }
         sleep(1);
     }
