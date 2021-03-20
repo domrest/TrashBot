@@ -7,16 +7,16 @@
 
 
 int main(){
-    TSIC detector1 = new TSIC();
-    detector1.open(14);
+    TSIC* detector1 = new TSIC();
+    detector1->open(14);
 
     double detector1Temp= 0.0;
 
     while (1){
-        bool received = detector1.getDegrees(&detector1Temp);
+        bool received = detector1->getDegrees(detector1Temp);
         if (received){
-            cout << detector1Temp;
+            std::cout << detector1Temp;
         }
-        sleep(1);
+        _sleep(1);
     }
 }
