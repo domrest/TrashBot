@@ -5,6 +5,7 @@
 #include "tsic.h"
 #include <iostream>
 #include <unistd.h>
+using namespace std;
 
 
 int main(){
@@ -16,7 +17,7 @@ int main(){
     while (1){
         bool received = detector1->getDegrees(detector1Temp);
         if (received){
-            std::cout << detector1Temp;
+            cout << detector1Temp;
         }
         sleep(1);
     }
