@@ -7,7 +7,8 @@ project(Tsic)
 add_executable(Tsic
         tsic.cpp
         main.cpp
+        pigpiomgr.h
         )
 
-link_libraries(Tsic
+target_link_libraries(Tsic
         pigpio)
