@@ -43,10 +43,6 @@ int main(){
     detector2->open(15);
     cout << "Detectors opened"<<endl;
 
-    double detector1Temp= 0.0;
-    double detector2Temp= 0.0;
-
-
     while (1){
         if (*detectors->valid1){
             cout << "detector 1: "<< *detectors->temp1 <<endl;
