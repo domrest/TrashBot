@@ -10,22 +10,22 @@ using namespace std;
 
 
 int main(){
-    cout << "Initializing";
+    cout << "Initializing"<<endl;
 
     TSIC* detector1 = new TSIC();
     detector1->open(14);
-    cout << "Detector opened";
+    cout << "Detector opened"<<endl;
 
     double detector1Temp= 0.0;
 
     while (1){
-        cout << "1 Sec passed";
+        cout << "1 Sec passed"<<endl;
 
         bool received = detector1->getDegrees(detector1Temp);
         if (received){
-            cout << detector1Temp;
+            cout << "detector 1: "<< detector1Temp <<endl;
         } else {
-            cout << "Still invalid";
+            cout << "Still invalid" <<endl;
         }
         sleep(1);
     }
