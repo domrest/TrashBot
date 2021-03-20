@@ -4,4 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Tsic)
 
 # add the executable
-add_executable(Tsic main.cpp)
+add_executable(Tsic
+        tsic.cpp
+        main.cpp
+        )
