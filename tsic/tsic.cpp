@@ -107,15 +107,15 @@ static int tsicDecode( int packet0, int packet1 )
 
 //-----------------------------------------------------------------------------
 
-TSIC::TSIC() :
+TSIC::TSIC(double* temp, bool* value) :
         m_gpio(0),
         m_open(false),
-        m_valid(false),
-        m_temperature(0.0),
         m_count(0),
         m_lastLow(0),
         m_word(0)
 {
+    m_valid = value;
+    m_temperature = temp;
 }
 
 //-----------------------------------------------------------------------------
@@ -198,8 +198,8 @@ void TSIC::close()
     // reset members
     m_gpio = 0;
     m_open = false;
-    m_valid = false;
-    m_temperature = 0.0;
+    *m_valid = false;
+    *m_temperature = 0.0;
 }//close
 
 //-----------------------------------------------------------------------------
@@ -207,8 +207,8 @@ void TSIC::close()
 bool TSIC::getDegrees( double & value ) const
 {
     std::lock_guard<std::mutex> lock( m_mutex );
-    value = m_temperature;
-    return m_valid;
+    value = *m_temperature;
+    return *m_valid;
 }//getDegrees
 
 //-----------------------------------------------------------------------------
@@ -246,12 +246,12 @@ void TSIC::alertFunction(
 
                 // update the temperature value and validity flag
                 if ( result != INVALID_TEMP ) {
-                    m_temperature =
+                    *m_temperature =
                             static_cast<double>( result ) /
                             static_cast<double>( SCALE_FACTOR );
-                    m_valid = true;
+                    *m_valid = true;
                 } else
-                    m_valid = false;
+                    *m_valid = false;
             }
 
             // prepare to receive a new packet

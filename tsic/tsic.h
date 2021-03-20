@@ -25,7 +25,7 @@ class TSIC
 {
 public:
     /// Default constructor
-    TSIC();
+    TSIC(double* temp, bool* valid);
 
     /// Destructor
     ~TSIC();
@@ -47,8 +47,8 @@ public:
 private:
     unsigned m_gpio;        ///< the GPIO pin used for the sensor
     bool     m_open;        ///< true if the sensor is open
-    bool     m_valid;       ///< temperature data is valid
-    double   m_temperature; ///< current temperature
+    bool*     m_valid;       ///< temperature data is valid
+    double*   m_temperature; ///< current temperature
 
     uint32_t m_count;       ///< number of bits received in current packet
     uint32_t m_lastLow;     ///< time when GPIO pin last went low (us)

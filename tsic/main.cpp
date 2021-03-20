@@ -8,13 +8,38 @@
 
 using namespace std;
 
+struct TempDetectors {
+    double* temp1;
+    bool* valid1;
+    double* temp2;
+    bool* valid2;
+};
+
+TempDetectors* createTempDetectors(){
+    TempDetectors* detectors = new TempDetectors();
+    detectors->temp1 = (double *)(malloc(sizeof(double)));
+    detectors->temp2 = (double *)(malloc(sizeof(double)));
+    detectors->valid1 = (bool *)(malloc(sizeof(bool)));
+    detectors->valid2 = (bool *)(malloc(sizeof(bool)));
+    return detectors;
+}
+
+void destroyTempDetectors(TempDetectors* detectors){
+    free(detectors->temp1);
+    free(detectors->temp2);
+    free(detectors->valid1);
+    free(detectors->valid2);
+    free(detectors);
+}
 
 int main(){
+    TempDetectors* detectors = new TempDetectors();
+
     cout << "Initializing"<<endl;
 
-    TSIC* detector1 = new TSIC();
+    TSIC* detector1 = new TSIC(detectors->temp1, detectors->valid1);
     detector1->open(14);
-    TSIC* detector2 = new TSIC();
+    TSIC* detector2 = new TSIC(detectors->temp2, detectors->valid2);
     detector2->open(15);
     cout << "Detectors opened"<<endl;
 
@@ -23,14 +48,11 @@ int main(){
 
 
     while (1){
-        bool received1 = detector1->getDegrees(detector1Temp);
-        bool received2 = detector2->getDegrees(detector2Temp);
-
-        if (received1){
-            cout << "detector 1: "<< detector1Temp <<endl;
+        if (*detectors->valid1){
+            cout << "detector 1: "<< *detectors->temp1 <<endl;
         }
-        if (received2){
-            cout << "detector 2: "<< detector2Temp <<endl;
+        if (*detectors->valid2){
+            cout << "detector 2: "<< *detectors->temp2 <<endl;
 
         }
         cout <<endl <<endl;
