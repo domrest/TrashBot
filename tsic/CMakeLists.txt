@@ -8,3 +8,6 @@ add_executable(Tsic
         tsic.cpp
         main.cpp
         )
+
+link_libraries(Tsic
+        pigpio)
