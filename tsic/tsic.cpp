@@ -1,8 +1,8 @@
 #include "tsic.h"
 #include <stdio.h>
 #include <unistd.h>
+#include <pigpiomgr.h>
 #include <pigpio.h>
-
 using namespace std;
 
 //-----------------------------------------------------------------------------
