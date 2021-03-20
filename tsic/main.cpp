@@ -33,7 +33,7 @@ void destroyTempDetectors(TempDetectors* detectors){
 }
 
 int main(){
-    TempDetectors* detectors = new TempDetectors();
+    TempDetectors* detectors = createTempDetectors();
 
     cout << "Initializing"<<endl;
 
