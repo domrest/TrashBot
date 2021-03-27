@@ -3,7 +3,6 @@
 //
 
 #include "tsic.h"
-#include "TempDetector.h"
 #include <iostream>
 #include <unistd.h>
 
