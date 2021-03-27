@@ -23,11 +23,11 @@ int main(int argc, char **argv)
 	MySMTP::SendSSL(
 	"smtp.gmail.com", 	//server adress
 	465, 			//port
-	"disc",			//username
-	"nackwwuzyfgosaem",	//app specific password
+	"discardit101@gmail.com",			//username
+	"iybeebgxfnrkgypm",	//app specific password
 	"discardit101@gmail.com",//from
 	"discardit101@gmail.com",//to
-	"Testing Boost STMP",	//subject
+	"Testing Boost SMTP",	//subject
 	"But does it djent?"	//main body
 	);
 	return 0;

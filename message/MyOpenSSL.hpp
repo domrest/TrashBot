@@ -46,6 +46,7 @@ public:
 			const int rstRead = SSL_read(ssl_.get(),buf,readBufSize);
 			if (0 == rstRead) throw runtime_error("Connection lost while read");
 			if (0 > rstRead && SSL_ERROR_WANT_READ == SSL_get_error(ssl_.get(), rstRead)) continue;
+			read += string(buf, buf + rstRead);
 			if (isDoneReceiving( read )) return read;
 		}
 	}

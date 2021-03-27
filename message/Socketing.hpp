@@ -5,7 +5,7 @@ namespace SocketNS
 class Socket
 {
 	//apparently a io_service object has to be declared
-	asio::io_service IOService_; //shorthand
+	asio::io_service IOService_; 
 	tcp::socket socket_;
 public: //sth like 'class Misc : public Socket{}' would inherit the public members of Socket
 	Socket(string server, uint16_t port)
