@@ -2,7 +2,7 @@
 // Created by domrest on 27/03/2021.
 //
 
-#import <iostream>
+#include <iostream>
 
 class TempDetector {
 
