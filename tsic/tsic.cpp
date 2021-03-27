@@ -1,4 +1,5 @@
 #include "tsic.h"
+#include "TempDetector.h"
 #include <stdio.h>
 #include <unistd.h>
 #include "pigpiomgr.h"
@@ -107,7 +108,7 @@ static int tsicDecode( int packet0, int packet1 )
 
 //-----------------------------------------------------------------------------
 
-TSIC::TSIC(double* temp, bool* value) :
+TSIC::TSIC(double* temp, bool* value, TempDetector* tempDetector) :
         m_gpio(0),
         m_open(false),
         m_count(0),
@@ -116,6 +117,7 @@ TSIC::TSIC(double* temp, bool* value) :
 {
     m_valid = value;
     m_temperature = temp;
+    m_tempDetector = tempDetector;
 }
 
 //-----------------------------------------------------------------------------
@@ -250,6 +252,7 @@ void TSIC::alertFunction(
                             static_cast<double>( result ) /
                             static_cast<double>( SCALE_FACTOR );
                     *m_valid = true;
+                    m_tempDetector->callBack();
                 } else
                     *m_valid = false;
             }
