@@ -6,7 +6,7 @@
 
 using namespace std;
 
-static const double 0.5;
+static const double THRESHOLD 0.5;
 
 TempDetector::TempDetector() {
     temp1 = (double *)(malloc(sizeof(double)));
