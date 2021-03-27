@@ -4,6 +4,7 @@
 
 
 class TempDetector {
+
 public:
     TempDetector();
 
