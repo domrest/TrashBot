@@ -7,6 +7,7 @@ project(Tsic)
 add_executable(Tsic
         tsic.cpp
         main.cpp
+        TempDetector.cpp
         pigpiomgr.h
         )
 
