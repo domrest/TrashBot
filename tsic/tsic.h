@@ -14,6 +14,7 @@
 //
 //-----------------------------------------------------------------------------
 
+#include "TempDetector.h"
 #include <inttypes.h>
 #include <mutex>
 

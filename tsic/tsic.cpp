@@ -1,5 +1,5 @@
 #include "tsic.h"
-#include "TempDetector.h"
+
 #include <stdio.h>
 #include <unistd.h>
 #include "pigpiomgr.h"
