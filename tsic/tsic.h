@@ -25,7 +25,7 @@ class TSIC
 {
 public:
     /// Default constructor
-    TSIC(double* temp, bool* valid);
+    TSIC(double* temp, bool* valid, TempDetector* tempDetector);
 
     /// Destructor
     ~TSIC();
