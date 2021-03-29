@@ -12,6 +12,18 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 </br>
 </br>
 <p align="center">
+    </br>
+    <a href="https://github.com/domrest/ChoreBot"><strong>Checkout the documents »</strong></a>
+    </br>
+    </br>
+    <a href="https://github.com/domrest/ChoreBot">View Demo</a>
+    ·
+    <a href="https://github.com/domrest/ChoreBot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/domrest/ChoreBot/issues">Request Feature</a>
+</p>
+
+<p align="center">
 <img  src="images/fb_logo.png"  width="44" height="44">
 <img src="images/instagram_logo.png" width="44" height="44">
 <img  src="images/utube_logo.png"  width="47" height="47">
@@ -22,7 +34,6 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 [![Contributors](https://img.shields.io/github/contributors/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/network/members)
 [![Stars](https://img.shields.io/github/stars/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/stargazers)
-[![Views](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/graphs/traffic)
 [![Issues](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/issues)
 [![License](https://img.shields.io/github/license/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/blob/main/LICENSE)
 </div>
@@ -82,12 +93,14 @@ To get the project up and running by yourself, follow these steps:
 See the [open issues](https://github.com/domrest/ChoreBot/issues) for a list of proposed features (and known issues).
 
 ## Contribution
+Want to contribute? Great!
+To fix a bug or enhance an existing module, follow these steps:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/Feature`)
-3. Commit your Changes (`git commit -m 'Add some Feature'`)
-4. Push to the Branch (`git push origin feature/Feature`)
-5. Open a Pull Request
+1. Fork the repo
+2. Create your new Branch (`git checkout -b newfeature/Feature`)
+3. Commit your Changes (`git commit -m 'Add some new Feature'`)
+4. Push to the Branch (`git push origin newfeature/Feature`)
+5. Create a Pull Request
 
 ## License
 Project is licensed under the MIT License. Click [License](./LICENSE) for more information.
