@@ -17,17 +17,39 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 <img  src="images/utube_logo.png"  width="47" height="47">
 </p>
 
+<div align="center">
+
+[![Contributors](https://img.shields.io/github/contributors/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/network/members)
+[![Stars](https://img.shields.io/github/stars/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/stargazers)
+[![Views](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/graphs/traffic)
+[![Issues](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/issues)
+[![License](https://img.shields.io/github/license/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/blob/main/LICENSE)
+</div>
+<div align="center">
+
+![](https://img.shields.io/badge/OS-Linux-informational?style=plastic&color=yellowgreen)
+![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&color=yellowgreen)
+![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
+![](https://img.shields.io/badge/Hardware-Sensors-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
+![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
+![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
+</div>
+</br>
 <!-- TABLE OF CONTENTS -->
 
 ## Table of contents
 <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-      <ul>
-      <li><a href="#temperature sensors">temperature sensors</a</li>
-      <li><a href="#gui">gui</a</li>
-      <li><a href="#email alert">email alert</a</li>
-      </ul>
+    <li><a href="#getting-started">Getting Started</a>
+       <ul>
+          <li><a href="#Prerequisites">Prerequisites</a</li>
+          <li><a href="#Installation">Installation</a</li> 
+          <li><a href="#temperature sensors">temperature sensors</a</li>
+          <li><a href="#gui">gui</a</li>
+          <li><a href="#email alert">email alert</a</li>
+       </ul>
+       </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contribution">Contribution</a></li>
@@ -39,6 +61,7 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 
 
 ## Getting Started
+
 There are 3 components to this project - `email alert`, `gui`, and `temperature sensors`.
 
 ### `temperature sensors` 
@@ -47,6 +70,13 @@ More documentation about `temperature sensors` can be found [here](./gui)
 More documentation about `email alert ` can be found [here](./gui)
 ### `gui`
 More documentation about `gui` can be found [here](./gui)
+
+To get the project up and running by yourself, follow these steps:
+### Prerequisites
+
+### Installation
+
+
 
 ## Roadmap
 See the [open issues](https://github.com/domrest/ChoreBot/issues) for a list of proposed features (and known issues).
