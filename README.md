@@ -24,7 +24,7 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 </p>
 
 <p align="center">
-<img  src="images/fb_logo.png"  width="44" height="44">
+<a href="https://www.facebook.com/TrashBotOfficial"><img  src="images/fb_logo.png"  width="44" height="44">
 <img src="images/instagram_logo.png" width="44" height="44">
 <img  src="images/utube_logo.png"  width="47" height="47">
 </p>
