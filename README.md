@@ -30,7 +30,7 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
       </ul>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contribution">Contribution</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
 </ol>
@@ -41,7 +41,32 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 ## Getting Started
 There are 3 components to this project - `email alert`, `gui`, and `temperature sensors`.
 
+### `temperature sensors` 
+More documentation about `temperature sensors` can be found [here](./gui)
+### `email alert `
+More documentation about `email alert ` can be found [here](./gui)
 ### `gui`
 More documentation about `gui` can be found [here](./gui)
-## Roadmap
 
+## Roadmap
+See the [open issues](https://github.com/domrest/ChoreBot/issues) for a list of proposed features (and known issues).
+
+## Contribution
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature`)
+3. Commit your Changes (`git commit -m 'Add some Feature'`)
+4. Push to the Branch (`git push origin feature/Feature`)
+5. Open a Pull Request
+
+## License
+Project is licensed under the MIT License. Click [License](./LICENSE) for more information.
+
+## Contact
+Domenico Restuccia - [](https://twitter.com/)
+
+Rohma Khalid - [](https://twitter.com/)
+
+Ulvis Silavnieks - [](https://twitter.com/)
+
+Project Link: https://github.com/domrest/ChoreBot
