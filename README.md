@@ -1,4 +1,4 @@
-<h1 align="center"> ChoreBot </h1>
+<h1 align="center"> TrashBot </h1>
 
 <p align="center">
 <img src="images/logo.png" alt="logo for Chorebot">
