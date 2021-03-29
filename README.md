@@ -112,4 +112,4 @@ Rohma Khalid - [](https://twitter.com/)
 
 Ulvis Silavnieks - [](https://twitter.com/)
 
-Project Link: https://github.com/domrest/ChoreBot
+Project Link: https://github.com/domrest/TrashBot
