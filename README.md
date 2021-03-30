@@ -32,9 +32,9 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 <div align="center">
 
 [![Contributors](https://img.shields.io/github/contributors/domrest/ChoreBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/ChoreBot/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/network/members)
+[![Forks](https://img.shields.io/github/forks/domrest/ChoreBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/ChoreBot/network/members)
 [![Stars](https://img.shields.io/github/stars/domrest/ChoreBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/ChoreBot/stargazers)
-[![Issues](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot)](https://github.com/domrest/ChoreBot/issues)
+[![Issues](https://img.shields.io/github/issues/domrest/ChoreBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/ChoreBot/issues)
 [![License](https://img.shields.io/github/license/domrest/ChoreBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/ChoreBot/blob/main/LICENSE)
 </div>
 <div align="center">
