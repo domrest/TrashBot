@@ -1,7 +1,7 @@
 <h1 align="center"> TrashBot </h1>
 
 <p align="center">
-<img src="images/logo_n.png" alt="logo for Trashbot">
+<img src="images/logo_final2.png" alt="logo for Trashbot">
 </p>
 </br>
 
