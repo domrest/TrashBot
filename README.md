@@ -39,12 +39,12 @@ The first of these is within your kitchen! Helping you deal with those pesky dir
 </div>
 <div align="center">
 
-![](https://img.shields.io/badge/OS-Linux-informational?style=plastic&color=yellowgreen)
-![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&color=yellowgreen)
-![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
-![](https://img.shields.io/badge/Hardware-Sensors-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
-![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
-![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=yellowgreen)
+![](https://img.shields.io/badge/OS-Linux-informational?style=plastic&color=1f425f)
+![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&color=1f425f)
+![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
+![](https://img.shields.io/badge/Hardware-Sensors-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
+![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
+![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
 </div>
 </br>
 <!-- TABLE OF CONTENTS -->
