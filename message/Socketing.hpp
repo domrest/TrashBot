@@ -1,3 +1,7 @@
+//
+// Created by Jay http://raspberrypiprogramming.blogspot.com/2014/09/send-email-to-gmail-in-c-with-boost-and.html.
+//
+
 namespace SocketNS
 {
 	using boost::asio::ip::tcp; // will be using tcp exclusively so this is convenient

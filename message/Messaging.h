@@ -1,4 +1,7 @@
-//#include <string>
+//
+// Created by Smithereens101.
+//
+
 class INFO{
 
 public: //this is the default, public has to be specified

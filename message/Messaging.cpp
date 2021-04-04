@@ -1,3 +1,7 @@
+//
+// Created by Smithereens101.
+//
+
 #include <iostream>
 #include <string>	//string, to_string
 #include <stdint.h>	//unit16_t

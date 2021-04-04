@@ -1,3 +1,7 @@
+//
+// Created by Jay http://raspberrypiprogramming.blogspot.com/2014/09/send-email-to-gmail-in-c-with-boost-and.html.
+//
+
 class MyOpenSSL
 {
 	unique_ptr< SSL_CTX, decltype(SSL_CTX_free)*>ctx_;//SSL_CTX is an object holding data for TLS/SSL/DTLS session
