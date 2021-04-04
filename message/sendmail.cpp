@@ -13,22 +13,27 @@ using namespace boost;
 #include "Socketing.hpp"
 #include "MyOpenSSL.hpp"
 #include "MySMTP.hpp"
+#include "Messaging.h"
 
 //header files look into it. also linking, that is the likely issue
 
-int main(int argc, char **argv)
+int main(int argc, char** argv)
 {
-	//needs to be called once, don't let multi-threads run it several times
-	MyOpenSSL::StaticInitialize sslInitializer;
-	MySMTP::SendSSL(
-	"smtp.gmail.com", 	//server adress
-	465, 			//port
-	"discardit101@gmail.com",			//username
-	"iybeebgxfnrkgypm",	//app specific password
-	"discardit101@gmail.com",//from
-	"discardit101@gmail.com",//to
-	"Testing Boost SMTP",	//subject
-	"But does it djent?"	//main body
-	);
+//	//needs to be called once, don't let multi-threads run it several times
+//	MyOpenSSL::StaticInitialize sslInitializer;
+//	MySMTP::SendSSL(
+//	"smtp.gmail.com", 	//server adress
+//	465, 			//port
+//	"discardit101@gmail.com",			//username
+//	"iybeebgxfnrkgypm",	//app specific password
+//	"discardit101@gmail.com",//from
+//	"discardit101@gmail.com",//to
+//	"Testing Boost SMTP",	//subject
+//	"But does it djent?"	//main body
+//	);
+Messaging message("discardit101@gmail.com", "Test", "Testing");
+//msg.message("discardit101@gmail.com", "Test", "Testing");
+
 	return 0;
 }
+

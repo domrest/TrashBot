@@ -5,6 +5,8 @@ class MyOpenSSL
 	enum{errorBufSize = 256, readBufSize = 256};
 public:
 //Methods can be: SSLv2_method, SSLv3_method, TLSv1_method, SSLv23_method
+
+
 	MyOpenSSL(int socket, const SSL_METHOD *method = SSLv23_method() )
 		: ctx_(nullptr, SSL_CTX_free)
 		, ssl_(nullptr, SSL_free)
