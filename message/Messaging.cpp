@@ -24,7 +24,7 @@ Messaging::Messaging(string dest, string sbj, string msg)
 	Messaging::INFO info;
 
 	info.username = "discardit101@gmail.com";
-	info.password = "iybeebgxfnrkgypm";
+	info.password = "";
 	info.serverAddress = "smtp.gmail.com";
 	info.port = 465;
 	info.sender = "discardit101@gmail.com";
