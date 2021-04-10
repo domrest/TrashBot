@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name
-project(Tsic)
+project(Trashbot)
 
 file(GLOB INCLUDE CONFIGURE_DEPENDS
         "include/messaging/*.h"
@@ -11,12 +11,12 @@ file(GLOB CPP CONFIGURE_DEPENDS "lib/*.cpp")
 
 
 # add the executable
-add_executable(Tsic
+add_executable(Trashbot
         ${CPP}
         ${INCLUDE}
         )
 
-target_link_libraries(Tsic
+target_link_libraries(Trashbot
         pigpio
         crypto
         boost_iostreams

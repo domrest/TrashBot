@@ -20,6 +20,7 @@ public:
     bool* valid2;
     Messaging* messaging;
     bool* message1Sent;
+    bool* message2Sent;
 private:
 
 };

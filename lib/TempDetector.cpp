@@ -6,7 +6,9 @@
 
 using namespace std;
 
-static const double THRESHOLD = 0.5;
+static const double THRESHOLD1 = 1.0;
+static const double THRESHOLD2 = 4.0;
+
 
 TempDetector::TempDetector(Messaging* _messaging) {
     messaging = _messaging;
@@ -15,7 +17,9 @@ TempDetector::TempDetector(Messaging* _messaging) {
     valid1 = (bool *)(malloc(sizeof(bool)));
     valid2 = (bool *)(malloc(sizeof(bool)));
     message1Sent = (bool *)(malloc(sizeof(bool)));
+    message2Sent = (bool *)(malloc(sizeof(bool)));
     *message1Sent = false;
+    *message2Sent = false;
 }
 
 TempDetector::~TempDetector() {
@@ -28,12 +32,20 @@ TempDetector::~TempDetector() {
 
 void TempDetector::callBack(){
     if (*valid1 && *valid2){
-        if ((*temp1 - *temp2) > 1.0 && not *message1Sent){
+        if ((*temp1 - *temp2) > THRESHOLD1 && not *message1Sent){
             messaging->sendMessage1();
             *message1Sent = true;
         }
-        if ((*temp1 - *temp2)< 0.5 && *message1Sent){
+        if ((*temp1 - *temp2)< (THRESHOLD1 - 0.5) && *message1Sent){
             *message1Sent = false;
+        }
+
+        if ((*temp1 - *temp2) > THRESHOLD2 && not *message2Sent){
+            messaging->sendMessage2();
+            *message2Sent = true;
+        }
+        if ((*temp1 - *temp2)< (THRESHOLD2 - 0.5) && *message2Sent){
+            *message2Sent = false;
         }
     }
 
