@@ -19,7 +19,6 @@ add_executable(Tsic
 target_link_libraries(Tsic
         pigpio
         crypto
-        boost
         boost_iostreams
         boost_filesystem
         pthread
