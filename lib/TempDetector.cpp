@@ -2,13 +2,14 @@
 // Created by domrest on 27/03/2021.
 //
 
-#include "TempDetector.h"
+#include "../include/GPIO/TempDetector.h"
 
 using namespace std;
 
 static const double THRESHOLD = 0.5;
 
-TempDetector::TempDetector() {
+TempDetector::TempDetector(Messaging* _messaging) {
+    messaging = _messaging;
     temp1 = (double *)(malloc(sizeof(double)));
     temp2 = (double *)(malloc(sizeof(double)));
     valid1 = (bool *)(malloc(sizeof(bool)));
