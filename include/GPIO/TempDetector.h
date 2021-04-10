@@ -3,11 +3,12 @@
 //
 
 #include <iostream>
+#include "../messaging/Messaging.h"
 
 class TempDetector {
 
 public:
-    TempDetector();
+    TempDetector(Messaging* messaging);
 
     ~TempDetector();
 
@@ -17,6 +18,7 @@ public:
     bool* valid1;
     double* temp2;
     bool* valid2;
+    Messaging* messaging;
 private:
 
 };

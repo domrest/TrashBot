@@ -12,7 +12,7 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Threads REQUIRED)
-add_executable(Dashboard mainwindow.cpp main.cpp)
+add_executable(Dashboard main.cpp)
 
 
 target_link_libraries(Dashboard Qt5::Widgets)

@@ -13,6 +13,8 @@ void *run(void *ptr){
     sleep(2);
     w->setTemp(50,50);
 }
+
+
 int main(int argc, char *argv[])
 {
 

@@ -33,7 +33,7 @@ Messaging::Messaging(string dest, string sbj, string msg)
 	info.subject = sbj;
 	info.message = msg;
 
-	MyOpenSSL::StaticInitialize sslInitializer;
+
 	Messaging::SendSSL(
 		info.serverAddress, 	//server adress
 		info.port, 			//port

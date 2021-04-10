@@ -2,15 +2,16 @@
 // Created by domrest on 20/03/2021.
 //
 
-#include "tsic.h"
+#include "../include/GPIO/tsic.h"
 #include <iostream>
 #include <unistd.h>
+#include "../include/messaging/Messaging.h"
 
 using namespace std;
 
 
-int main(){
-    TempDetector* detectors = new TempDetector();
+void initDetectors(Messaging* messaging){
+    TempDetector* detectors = new TempDetector(messaging);
 
     cout << "Initializing"<<endl;
 
@@ -19,8 +20,13 @@ int main(){
     TSIC* detector2 = new TSIC(detectors->temp2, detectors->valid2, detectors);
     detector2->open(15);
     cout << "Detectors opened"<<endl;
+}
 
-    while (1){
-        sleep(2);
-    }
+int main(){
+
+    Messaging* messaging = new Messaging();
+
+
+
+
 }

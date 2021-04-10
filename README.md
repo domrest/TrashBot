@@ -86,7 +86,8 @@ To get the project up and running by yourself, follow these steps:
 ### Prerequisites
 
 ### Installation
-
+sudo apt-get install 
+sudo apt-get install libboost-dev
 
 
 ## Roadmap

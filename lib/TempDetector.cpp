@@ -24,6 +24,11 @@ TempDetector::~TempDetector() {
 
 
 void TempDetector::callBack(){
+    if (*valid1 && *valid2){
+        if ((*temp1 - *temp2) > 1.0){
+            messaging->sendMessage1();
+        }
+    }
     if (*valid1){
         cout << "detector 1: "<< *temp1 <<endl;
     }
