@@ -26,6 +26,8 @@ int main(){
     Messaging* messaging = new Messaging();
 
 
-
+    while(1) {
+        sleep(5);
+    }
 
 }
