@@ -1,19 +1,26 @@
+//
+// Created by Jay http://raspberrypiprogramming.blogspot.com/2014/09/send-email-to-gmail-in-c-with-boost-and.html.
+//
+
 class MySMTP //detecting if all messages have meen transferred
 {
 public:
 	static void SendSSL(const string &server, uint16_t port, const string &userName, const string &password, const string &from, const string &to, const string &subject, const string &message )
 	{
-		cout << "TEST cout";
+		//cout << "TEST cout";
 		static const string newline = "\r\n";
 		SocketNS::Socket socket(server,port);
 		MyOpenSSL openSSL(socket.GetSocket() ->native_handle());
 
 		//https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol#SMTP_transport_example
-		cout << openSSL.Read(ReceiveFunctor(220)); // 220 mx.google.com ESMTP
+		std::cout << openSSL.Read(ReceiveFunctor(220)) << endl; // 220 mx.google.com ESMTP
 		openSSL.Write(string("EHLO ")+server+newline);
 
 		cout << openSSL.Read(ReceiveFunctor(250)); // 250-mx.google.com 
 		openSSL.Write(string("AUTH LOGIN") + newline);
+
+		cout << openSSL.Read(ReceiveFunctor(334)); // 334
+		openSSL.Write(EncodeBase64(userName) + newline);
 
 		cout << openSSL.Read(ReceiveFunctor(334)); // 334
 		openSSL.Write(EncodeBase64(password) + newline);
