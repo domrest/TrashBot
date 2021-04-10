@@ -14,6 +14,8 @@ TempDetector::TempDetector(Messaging* _messaging) {
     temp2 = (double *)(malloc(sizeof(double)));
     valid1 = (bool *)(malloc(sizeof(bool)));
     valid2 = (bool *)(malloc(sizeof(bool)));
+    message1Sent = (bool *)(malloc(sizeof(bool)));
+    *message1Sent = false;
 }
 
 TempDetector::~TempDetector() {
@@ -26,10 +28,16 @@ TempDetector::~TempDetector() {
 
 void TempDetector::callBack(){
     if (*valid1 && *valid2){
-        if ((*temp1 - *temp2) > 1.0){
+        if ((*temp1 - *temp2) > 1.0 && not *message1Sent){
             messaging->sendMessage1();
+            *message1Sent = true;
+        }
+        if ((*temp1 - *temp2)< 0.5 && *message1Sent){
+            *message1Sent = false;
         }
     }
+
+
     if (*valid1){
         cout << "detector 1: "<< *temp1 <<endl;
     }

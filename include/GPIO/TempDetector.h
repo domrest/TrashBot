@@ -19,6 +19,7 @@ public:
     double* temp2;
     bool* valid2;
     Messaging* messaging;
+    bool* message1Sent;
 private:
 
 };
