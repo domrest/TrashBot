@@ -33,7 +33,22 @@ Messaging::Messaging()
     info.subject         = "Trashbot message";
     info.message1        = "Your trash is heating up";
     info.message2        = "Throw out your trash!!!";
+    info.startup         = "Trashbot Starting";
 
+}
+
+void Messaging::startup(){
+    MySMTP::SendSSL(
+            info.serverAddress, 	//server adress
+            info.port, 			//port
+            info.username,			//username
+            info.password,	//app specific password
+            info.sender,//from
+            info.destination,//to
+            info.subject,	//subject
+            info.startup	//main body
+    );
+    cout << "Startup Sent" << endl;
 }
 
 void Messaging::sendMessage1(){

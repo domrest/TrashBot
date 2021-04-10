@@ -19,7 +19,7 @@ public: //this is the default, public has to be specified
     std::string subject;	    //subject
     std::string message1;	//main body;
     std::string message2;
-
+    std::string startup;
 
 };
 
@@ -34,6 +34,8 @@ public:
 
 	INFO info;
 
+	void startup();
     void sendMessage1();
     void sendMessage2();
+
 };

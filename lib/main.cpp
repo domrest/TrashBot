@@ -25,7 +25,7 @@ int main(){
 
     Messaging* messaging = new Messaging();
 
-
+    initDetectors(messaging);
     while(1) {
         sleep(5);
     }
