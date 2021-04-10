@@ -12,7 +12,7 @@ using namespace std;
 void initDetectors(Messaging* messaging){
     TempDetector* detectors = new TempDetector(messaging);
 
-    cout << "Initializing"<<endl;
+    cout << "Initializing Detectors"<<endl;
 
     TSIC* detector1 = new TSIC(detectors->temp1, detectors->valid1, detectors);
     detector1->open(23);
@@ -22,8 +22,9 @@ void initDetectors(Messaging* messaging){
 }
 
 int main(){
-
+    cout << "Start"<<endl;
     Messaging* messaging = new Messaging();
+    cout << "Initialised Messaging"<<endl;
 
     initDetectors(messaging);
     while(1) {
