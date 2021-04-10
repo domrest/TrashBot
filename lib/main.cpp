@@ -5,7 +5,6 @@
 #include "../include/GPIO/tsic.h"
 #include <iostream>
 #include <unistd.h>
-#include "../include/messaging/Messaging.h"
 
 using namespace std;
 
