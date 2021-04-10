@@ -1,8 +1,8 @@
 #include "../include/GPIO/tsic.h"
+#include "../include/GPIO/pigpiomgr.h"
 
 #include <stdio.h>
 #include <unistd.h>
-#include "pigpiomgr.h"
 #include <pigpio.h>
 using namespace std;
 
