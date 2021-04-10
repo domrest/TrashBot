@@ -17,7 +17,7 @@ void initDetectors(Messaging* messaging){
     TSIC* detector1 = new TSIC(detectors->temp1, detectors->valid1, detectors);
     detector1->open(23);
     TSIC* detector2 = new TSIC(detectors->temp2, detectors->valid2, detectors);
-    detector2->open(25);
+    detector2->open(24);
     cout << "Detectors opened"<<endl;
 }
 
