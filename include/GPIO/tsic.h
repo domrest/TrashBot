@@ -14,6 +14,7 @@
 //
 //-----------------------------------------------------------------------------
 
+#include "TempDetector.h"
 #include <inttypes.h>
 #include <mutex>
 
@@ -25,7 +26,7 @@ class TSIC
 {
 public:
     /// Default constructor
-    TSIC(double* temp, bool* valid);
+    TSIC(double* temp, bool* valid, TempDetector* tempDetector);
 
     /// Destructor
     ~TSIC();
@@ -49,6 +50,7 @@ private:
     bool     m_open;        ///< true if the sensor is open
     bool*     m_valid;       ///< temperature data is valid
     double*   m_temperature; ///< current temperature
+    TempDetector* m_tempDetector;
 
     uint32_t m_count;       ///< number of bits received in current packet
     uint32_t m_lastLow;     ///< time when GPIO pin last went low (us)

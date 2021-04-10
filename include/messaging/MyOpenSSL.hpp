@@ -1,3 +1,7 @@
+//
+// Created by Jay http://raspberrypiprogramming.blogspot.com/2014/09/send-email-to-gmail-in-c-with-boost-and.html.
+//
+
 class MyOpenSSL
 {
 	unique_ptr< SSL_CTX, decltype(SSL_CTX_free)*>ctx_;//SSL_CTX is an object holding data for TLS/SSL/DTLS session
@@ -5,6 +9,8 @@ class MyOpenSSL
 	enum{errorBufSize = 256, readBufSize = 256};
 public:
 //Methods can be: SSLv2_method, SSLv3_method, TLSv1_method, SSLv23_method
+
+
 	MyOpenSSL(int socket, const SSL_METHOD *method = SSLv23_method() )
 		: ctx_(nullptr, SSL_CTX_free)
 		, ssl_(nullptr, SSL_free)
@@ -46,6 +52,7 @@ public:
 			const int rstRead = SSL_read(ssl_.get(),buf,readBufSize);
 			if (0 == rstRead) throw runtime_error("Connection lost while read");
 			if (0 > rstRead && SSL_ERROR_WANT_READ == SSL_get_error(ssl_.get(), rstRead)) continue;
+			read += string(buf, buf + rstRead);
 			if (isDoneReceiving( read )) return read;
 		}
 	}

@@ -85,7 +85,36 @@ More documentation about `gui` can be found [here](./gui)
 To get the project up and running by yourself, follow these steps:
 ### Prerequisites
 
+GUI Prerequisites:
+
+`apt-get install qtdeclarative5-dev-tools`
+
+`apt-get install libqcustomplot-dev`
+
+Email Messaging Prerequisites:
+
+`sudo apt-get install libssl-dev`
+
+`sudo apt-get install libboost-all-dev`
+
+Temp Sensor Prerequisites:
+
+`sudo apt-get install `
+
+
 ### Installation
+
+Run Cmake within directory:
+
+`cmake .`
+
+Run Make:
+
+`make`
+
+Run Program:
+
+`sudo ./Trashbot`
 
 
 
