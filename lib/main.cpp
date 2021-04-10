@@ -26,7 +26,9 @@ int main(){
     Messaging* messaging = new Messaging();
     cout << "Initialised Messaging"<<endl;
 
+
     initDetectors(messaging);
+    messaging->startup();
     while(1) {
         sleep(5);
     }
