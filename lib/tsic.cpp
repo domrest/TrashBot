@@ -1,4 +1,4 @@
-#include "tsic.h"
+#include "../include/GPIO/tsic.h"
 
 #include <stdio.h>
 #include <unistd.h>
