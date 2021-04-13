@@ -99,7 +99,7 @@ Email Messaging Prerequisites:
 
 Temp Sensor Prerequisites:
 
-`sudo apt-get install `
+`sudo apt-get install pigpio python-pigpio python3-pigpio`
 
 
 ### Installation
