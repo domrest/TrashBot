@@ -3,9 +3,9 @@
 //
 
 #include <iostream>
-#include <string>	//string, to_string
-#include <stdint.h>	//unit16_t
-#include <stdexcept>	//runtime exception
+#include <string>
+#include <stdint.h>	    //unit16_t
+#include <stdexcept>	//runtime exceptions
 #include <boost/asio.hpp>
 #include <boost/archive/iterators/base64_from_binary.hpp>
 #include <boost/archive/iterators/transform_width.hpp>
@@ -40,13 +40,13 @@ Messaging::Messaging()
 void Messaging::startup(){
     MySMTP::SendSSL(
             info.serverAddress, 	//server adress
-            info.port, 			//port
+            info.port, 			    //port
             info.username,			//username
-            info.password,	//app specific password
-            info.sender,//from
-            info.destination,//to
-            info.subject,	//subject
-            info.startup	//main body
+            info.password,	        //app specific password
+            info.sender,            //from
+            info.destination,       //to
+            info.subject,	        //subject
+            info.startup	        //main body
     );
     cout << "Startup Sent" << endl;
 }
@@ -54,26 +54,26 @@ void Messaging::startup(){
 void Messaging::sendMessage1(){
     MySMTP::SendSSL(
             info.serverAddress, 	//server adress
-            info.port, 			//port
+            info.port, 			    //port
             info.username,			//username
-            info.password,	//app specific password
-            info.sender,//from
-            info.destination,//to
-            info.subject,	//subject
-            info.message1	//main body
+            info.password,	        //app specific password
+            info.sender,            //from
+            info.destination,       //to
+            info.subject,	        //subject
+            info.message1	        //main body
     );
     cout << "Message 1 Sent" << endl;
 }
 
 void Messaging::sendMessage2(){
     MySMTP::SendSSL(
-            info.serverAddress, 	//server adress
-            info.port, 			//port
-            info.username,			//username
-            info.password,	//app specific password
-            info.sender,//from
-            info.destination,//to
-            info.subject,	//subject
-            info.message2	//main body
+            info.serverAddress, 	
+            info.port, 			
+            info.username,			
+            info.password,	
+            info.sender,
+            info.destination,
+            info.subject,	
+            info.message2	
     );
 }
