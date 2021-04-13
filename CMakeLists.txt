@@ -12,7 +12,8 @@ set(QT5DIR "$/usr")
 file(GLOB INCLUDE CONFIGURE_DEPENDS
         "include/messaging/*.h"
         "include/messaging/*.hpp"
-        "include/GPIO/*.h")
+        "include/GPIO/*.h"
+        "include/GUI/*.h")
 file(GLOB CPP CONFIGURE_DEPENDS "lib/*.cpp")
 
 set(CMAKE_AUTOMOC ON)
