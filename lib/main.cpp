@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
     cout << "Initialised Messaging"<<endl;
 
 
-    initDetectors(messaging, window);
+    initDetectors(messaging, &w);
     messaging->startup();
 
     w.resize(600,400);
