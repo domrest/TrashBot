@@ -24,7 +24,7 @@ void initDetectors(Messaging* messaging, MainWindow* window){
     cout << "Detectors opened"<<endl;
 }
 
-int main(){
+int main(int argc, char *argv[]){
     QApplication a(argc, argv);
     MainWindow w;
     cout << "Start"<<endl;
@@ -32,7 +32,7 @@ int main(){
     cout << "Initialised Messaging"<<endl;
 
 
-    initDetectors(messaging, window);
+    initDetectors(messaging, &w);
     messaging->startup();
 
     w.resize(600,400);

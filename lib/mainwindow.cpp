@@ -55,7 +55,7 @@ MainWindow::MainWindow(): gain(5), count(0)
              vL2->addWidget(l2);
              vL2->setContentsMargins(40,0,0,0);
             //  hLayout->addWidget(thermo2);
-             l3 = new QLabel("Threshold:");
+             l3 = new QLabel("Temp Difference:");
              QFont font2=l3->font();
                    font2.setPointSize(25);
                    font2.setBold(true);
@@ -85,7 +85,7 @@ void MainWindow::setTemp(double temp1,double temp2)
 {
     thermo1->setValue(temp1);
     thermo2->setValue(temp2);
-    l4->setText(QString::number(temp1));
+    l4->setText(QString::number(temp1-temp2));
 
 }
 /*void MainWindow::timerEvent( QTimerEvent * )
