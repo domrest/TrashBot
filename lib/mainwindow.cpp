@@ -1,5 +1,5 @@
 #include <cmath>
-#include "mainwindow.h"
+#include "../include/GUI/mainwindow.h"
 
 
 MainWindow::MainWindow(): gain(5), count(0)

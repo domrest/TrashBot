@@ -4,11 +4,13 @@
 
 #include <iostream>
 #include "../messaging/Messaging.h"
+#include "../include/GUI/mainwindow.h"
+
 
 class TempDetector {
 
 public:
-    TempDetector(Messaging* messaging);
+    TempDetector(Messaging* messaging, MainWindow* window);
 
     ~TempDetector();
 
@@ -19,6 +21,7 @@ public:
     double* temp2;
     bool* valid2;
     Messaging* messaging;
+    MainWindow* window;
     bool* message1Sent;
     bool* message2Sent;
 private:

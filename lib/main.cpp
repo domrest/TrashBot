@@ -5,12 +5,15 @@
 #include "../include/GPIO/tsic.h"
 #include <iostream>
 #include <unistd.h>
+#include "../include/GUI/mainwindow.h"
+#include <iostream>
+#include <QApplication>
 
 using namespace std;
 
 
-void initDetectors(Messaging* messaging){
-    TempDetector* detectors = new TempDetector(messaging);
+void initDetectors(Messaging* messaging, MainWindow* window){
+    TempDetector* detectors = new TempDetector(messaging, window);
 
     cout << "Initializing Detectors"<<endl;
 
@@ -22,15 +25,18 @@ void initDetectors(Messaging* messaging){
 }
 
 int main(){
+    QApplication a(argc, argv);
+    MainWindow w;
     cout << "Start"<<endl;
     Messaging* messaging = new Messaging();
     cout << "Initialised Messaging"<<endl;
 
 
-    initDetectors(messaging);
+    initDetectors(messaging, window);
     messaging->startup();
-    while(1) {
-        sleep(5);
-    }
 
+    w.resize(600,400);
+    w.show();
+    w.setTemp(0.0,0.0);
+    return a.exec();
 }

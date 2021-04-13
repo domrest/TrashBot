@@ -10,8 +10,9 @@ static const double THRESHOLD1 = 1.0;
 static const double THRESHOLD2 = 4.0;
 
 
-TempDetector::TempDetector(Messaging* _messaging) {
+TempDetector::TempDetector(Messaging* _messaging, MainWindow* _window) {
     messaging = _messaging;
+    window = _window;
     temp1 = (double *)(malloc(sizeof(double)));
     temp2 = (double *)(malloc(sizeof(double)));
     valid1 = (bool *)(malloc(sizeof(bool)));
@@ -47,14 +48,16 @@ void TempDetector::callBack(){
         if ((*temp1 - *temp2)< (THRESHOLD2 - 0.5) && *message2Sent){
             *message2Sent = false;
         }
-    }
-
-
-    if (*valid1){
+        window->setTemp(*temp1, *temp2);
         cout << "detector 1: "<< *temp1 <<endl;
-    }
-    if (*valid2){
+        cout << "detector 2: "<< *temp2 <<endl;
+    } else if (*valid2){
+        window->setTemp(0.0, *temp2);
+        cout << "detector 2: "<< *temp2 <<endl;
+    } else if (*valid1){
+        window->setTemp(*temp1, 0.0);
         cout << "detector 2: "<< *temp2 <<endl;
     }
+
     cout << endl << endl;
 }
