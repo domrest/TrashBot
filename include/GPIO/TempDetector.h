@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "../messaging/Messaging.h"
-#include "../include/GUI/mainwindow.h"
+#include "../GUI/mainwindow.h"
 
 
 class TempDetector {
