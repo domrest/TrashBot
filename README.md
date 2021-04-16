@@ -4,7 +4,9 @@
 <img src="images/logo_final2.png" alt="logo for Trashbot">
 </p>
 </br>
-
+<div align="center">
+  <img src="images/Facebook Post 940x788 px (2).gif" alt="Animation" width="600">
+</div>
 Your gateway into the future!
 </br>
 Chorebot is an automated bot that utilising voice recognition will perform various tasks within your home!
