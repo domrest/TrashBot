@@ -1,7 +1,7 @@
 <h1 align="center"> TrashBot </h1>
 
 <p align="center">
-<img src="images/logo_final2.png" alt="logo for Trashbot">
+<img src="images/Facebook Post 940x788 px (3).gif" alt="logo for Trashbot">
 </p>
 
 Your gateway into the future!
