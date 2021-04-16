@@ -3,15 +3,15 @@
 <p align="center">
 <img src="images/logo_final2.png" alt="logo for Trashbot">
 </p>
+
+Your gateway into the future!
+</br>
+TrashBot is an open-source project which monitors the temperature of the trash bins and reminds you to take out the trash before it goes bad!
+</br>
 </br>
 <div align="center">
   <img src="images/Facebook Post 940x788 px (2).gif" alt="Animation" width="600">
 </div>
-Your gateway into the future!
-</br>
-Chorebot is an automated bot that utilising voice recognition will perform various tasks within your home!
-The first of these is within your kitchen! Helping you deal with those pesky dirty dishes.
-</br>
 </br>
 <p align="center">
     </br>
