@@ -1,5 +1,5 @@
 //
-// Created by domrest on 20/03/2021.
+// Created by Domenico Restuccia on 20/03/2021.
 //
 
 #include "../include/GPIO/tsic.h"
