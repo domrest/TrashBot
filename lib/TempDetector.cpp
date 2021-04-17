@@ -1,5 +1,5 @@
 //
-// Created by domrest on 27/03/2021.
+// Created by Domenico Restuccia on 27/03/2021.
 //
 
 #include "../include/GPIO/TempDetector.h"
