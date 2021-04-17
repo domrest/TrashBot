@@ -8,7 +8,7 @@ using namespace std;
 
 //-----------------------------------------------------------------------------
 //
-// Copyright (C) 2014-2015 James Ward
+// Copyright (C) 2014-2015 James Ward, edited 2021 Domenico Restuccia
 //
 // This software is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
