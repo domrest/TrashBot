@@ -9,5 +9,5 @@ These temperature sensors have a refresh rate of 10 Hz, and an error of +-0.3 De
 
 
 <p align="center">
-<img src="images/Tsic306.jpg" alt="Tsic 306 sensor">
+<img src="../images/Tsic306.jpg" alt="Tsic 306 sensor">
 </p>
