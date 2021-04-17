@@ -80,9 +80,9 @@ There are 3 components to this project - `email alert`, `gui`, and `temperature 
 ### `temperature sensors` 
 More documentation about `temperature sensors` can be found [here](./docs/TemperatureSensors.md)
 ### `email alert `
-More documentation about `email alert ` can be found [here](./gui)
+More documentation about `email alert ` can be found [here](./docs/Messaging.md)
 ### `gui`
-More documentation about `gui` can be found [here](./gui)
+More documentation about `gui` can be found [here](./docs/GUI.md)
 
 To get the project up and running by yourself, follow these steps:
 ### Prerequisites
