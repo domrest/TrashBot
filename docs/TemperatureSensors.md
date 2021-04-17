@@ -23,6 +23,7 @@ The sensor has Three pins:
 - Power
 - Data
 - Ground
+
 Which were soldered to distinct wires
 
 The Power wires were then connected to the same Power pin on the Raspberry Pi, similarly to the Ground wires conencted to the same ground pin on the raspberryPi.
