@@ -136,11 +136,11 @@ To fix a bug or enhance an existing module, follow these steps:
 ## License
 Project is licensed under the MIT License. Click [License](./LICENSE) for more information.
 
-## Contact
-Domenico Restuccia - [](https://twitter.com/)
+## Contributors
+Domenico Restuccia 
 
-Rohma Khalid - [](https://twitter.com/)
+Rohma Khalid
 
-Ulvis Silavnieks - [](https://twitter.com/)
+Ulvis Silavnieks
 
 Project Link: https://github.com/domrest/TrashBot
