@@ -10,7 +10,7 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 </br>
 </br>
 <div align="center">
-  <img src="images/Facebook Post 940x788 px (2).gif" alt="Animation" width="600">
+  <img src="images/Facebook Post 940x788 px (4).gif" alt="Animation" width="600">
 </div>
 </br>
 <p align="center">
