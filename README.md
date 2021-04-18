@@ -15,6 +15,8 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 </br>
 <p align="center">
     </br>
+<a href="https://domrest.github.io/TrashBot/"><strong>Browse the docs »</strong></a>
+    </br>
     <a href="https://www.trashbot.info/"><strong>Checkout the website »</strong></a>
     </br>
     </br>    ·
