@@ -17,5 +17,6 @@ For simple implementation in the main program a messaging class is created. It d
 Currently the message contents and destination are hardcoded and can only be changed in Messaging.cpp.
 
 ## A short demo
-https://user-images.githubusercontent.com/77978118/115157340-a2a65580-a080-11eb-8ab6-e4ed28813114.mp4
+
+<iframe width="560" height="315" src="images/trashbot_vid_mid_qual.mp4" frameborder="0" allowfullscreen></iframe>
 
