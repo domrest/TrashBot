@@ -3,15 +3,9 @@
 <p align="center">
 <img src="images/Facebook Post 940x788 px (3).gif" alt="logo for Trashbot">
 </p>
-
 Your gateway into the future!
 </br>
 TrashBot is an open-source project which monitors the temperature of the trash bins and reminds you to take out the trash before it goes bad!
-</br>
-</br>
-<div align="center">
-  <img src="images/Facebook Post 940x788 px (4).gif" alt="Animation" width="600">
-</div>
 </br>
 <p align="center">
     </br>
@@ -82,6 +76,12 @@ The most common issue we see is that in the public spaces and streets the trash 
 We planned on implementing this idea at home by implementing a smart bin - a 'TrashBot' which upon measuring the temperature of the waste would detect the decay and send an alert to user to empty the trash. Along with creating a fun home automation project this will help create a healthy habit of being mindful of clearing the waste timely.
 
 This project can then be expanded for largescale implementation especially in residential area streets and parks. Before trash overflows and starts to decay spreading unpleasant smell in beautiful natural spaces, Trashbot will send an alert to the waste collectors.
+</br>
+
+<div align="center">
+  <img src="images/Facebook Post 940x788 px (4).gif" alt="Animation" width="600">
+</div>
+</br>
 
 ## Getting Started
 
