@@ -41,7 +41,7 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 
 ![](https://img.shields.io/badge/OS-Debian-informational?style=plastic&color=1f425f)
 ![](https://img.shields.io/badge/Hardware-RaspberryPi4-informational?style=plastic&color=1f425f)
-![](https://img.shields.io/badge/Hardware-Tsic 306-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
+![](https://img.shields.io/badge/Hardware-Tsic306-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
 ![](https://img.shields.io/badge/Hardware-Sensors-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
 ![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
 </div>
