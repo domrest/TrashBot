@@ -15,14 +15,12 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 </br>
 <p align="center">
     </br>
-    <a href="https://github.com/domrest/ChoreBot"><strong>Checkout the documents »</strong></a>
+    <a href="https://github.com/domrest/TrashBot"><strong>Checkout the documents »</strong></a>
     </br>
-    </br>
-    <a href="https://github.com/domrest/ChoreBot">View Demo</a>
+    </br>    ·
+    <a href="https://github.com/domrest/TrashBot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/domrest/ChoreBot/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/domrest/ChoreBot/issues">Request Feature</a>
+    <a href="https://github.com/domrest/TrashBot/issues">Request Feature</a>
 </p>
 
 <p align="center">
