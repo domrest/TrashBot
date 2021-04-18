@@ -19,6 +19,8 @@ Currently the message contents and destination are hardcoded and can only be cha
 ## A short demo
 
 
-https://user-images.githubusercontent.com/77978118/115160423-f8362e80-a08f-11eb-9b39-91eac5892980.mp4
+https://user-images.githubusercontent.com/77978118/115160562-c376a700-a090-11eb-993b-aa074892db83.mp4
+
+
 
 
