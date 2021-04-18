@@ -22,10 +22,10 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 <p align="center">
 <a href="https://www.facebook.com/TrashBotOfficial"><img  src="images/fb_logo.png"  width="44" height="44">
 <a href="https://www.instagram.com/thetrashbotofficial/"><img src="images/instagram_logo.png" width="44" height="44">
-<img  src="images/twitter.png"  width="47" height="47">
+<a href="https://twitter.com/Trashbo27883021"><img  src="images/twitter.png"  width="47" height="47">
 </p>
 <div align="center">
-
+ 
 [![Contributors](https://img.shields.io/github/contributors/domrest/TrashBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/TrashBot/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/domrest/TrashBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/TrashBot/network/members)
 [![Stars](https://img.shields.io/github/stars/domrest/TrashBot.svg?style=for-the-badge&logo=probot&color=1abc9c)](https://github.com/domrest/TrashBot/stargazers)
