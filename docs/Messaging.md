@@ -18,5 +18,7 @@ Currently the message contents and destination are hardcoded and can only be cha
 
 ## A short demo
 
-<iframe width="560" height="315" src="images/trashbot_vid_mid_qual.mp4" frameborder="0" allowfullscreen></iframe>
+
+https://user-images.githubusercontent.com/77978118/115160423-f8362e80-a08f-11eb-9b39-91eac5892980.mp4
+
 
