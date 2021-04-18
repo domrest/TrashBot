@@ -59,9 +59,9 @@ TrashBot is an open-source project which monitors the temperature of the trash b
        <ul>
           <li><a href="#Prerequisites">Prerequisites</a</li>
           <li><a href="#Installation">Installation</a</li> 
-          <li><a href="#temperature sensors">temperature sensors</a</li>
-          <li><a href="#gui">gui</a</li>
-          <li><a href="#email alert">email alert</a</li>
+          <li><a href="#temperature sensors">Temperature Sensors</a</li>
+          <li><a href="#gui">Gui</a</li>
+          <li><a href="#email alert">Email Alert</a</li>
        </ul>
        </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -77,12 +77,12 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 
 There are 3 components to this project - `email alert`, `gui`, and `temperature sensors`.
 
-### `temperature sensors` 
-More documentation about `temperature sensors` can be found [here](./docs/TemperatureSensors.md)
-### `email alert `
-More documentation about `email alert ` can be found [here](./docs/Messaging.md)
-### `gui`
-More documentation about `gui` can be found [here](./docs/GUI.md)
+### `Temperature Sensors` 
+More documentation about `Temperature Sensors` can be found [here](./docs/TemperatureSensors.md)
+### `Email Alert `
+More documentation about `Email Alert ` can be found [here](./docs/Messaging.md)
+### `Gui`
+More documentation about `Gui` can be found [here](./docs/GUI.md)
 
 To get the project up and running by yourself, follow these steps:
 ### Prerequisites
