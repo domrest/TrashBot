@@ -59,9 +59,9 @@ TrashBot is an open-source project which monitors the temperature of the trash b
        <ul>
           <li><a href="#Prerequisites">Prerequisites</a</li>
           <li><a href="#Installation">Installation</a</li> 
-          <li><a href="#temperature sensors">Temperature Sensors</a</li>
-          <li><a href="#gui">Gui</a</li>
-          <li><a href="#email alert">Email Alert</a</li>
+          <li><a href="#Temperature Sensors">Temperature Sensors</a</li>
+          <li><a href="#Gui">Gui</a</li>
+          <li><a href="#Email Alert">Email Alert</a</li>
        </ul>
        </li>
     <li><a href="#roadmap">Roadmap</a></li>
