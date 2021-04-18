@@ -15,19 +15,8 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 </br>
 
 
-<h1> Table of contents </h1>
-<ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#getting-started">Getting Started</a>
-       <ul>
-          <li><a href="#Prerequisites">Prerequisites</a</li>
-          <li><a href="#Installation">Installation</a</li> 
-          <li><a href="#Temperature Sensors">Temperature Sensors</a</li>
-          <li><a href="#Gui">Gui</a</li>
-          <li><a href="#Email Alert">Email Alert</a</li>
-  </ol>
-
 <h1 align="center"> About The Project </h1> 
+
 
 The inspiration of the project was taken from the waste management necessity for our planet. To target a zero waste planet, healthy habits with useful gadgets can help us move towards this global goal. 
 
@@ -37,51 +26,47 @@ We planned on implementing this idea at home by implementing a smart bin - a 'Tr
 
 This project can then be expanded for largescale implementation especially in residential area streets and parks. Before trash overflows and starts to decay spreading unpleasant smell in beautiful natural spaces, Trashbot will send an alert to the waste collectors.
 
+
 <h1 align="center"> Getting Started</h1> 
+
 
 There are 3 components to this project - `Email Alert`, `Gui`, and `Temperature Sensors`.
 
-<h2>  Temperature Sensors </h2>
-More documentation about `Temperature Sensors` can be found [here](./docs/TemperatureSensors.md)
-<h2>  Email Alert</h2> 
-More documentation about `Email Alert ` can be found [here](./docs/Messaging.md)
-<h2>  Gui </h2> 
-More documentation about `Gui` can be found [here](./docs/GUI.md)
-
 To get the project up and running by yourself, follow these steps:
+
 
 <h1 align="center"> Prerequisites </h1>
 
 GUI Prerequisites:
 
-`apt-get install qtdeclarative5-dev-tools`
+apt-get install qtdeclarative5-dev-tools
 
-`apt-get install libqcustomplot-dev`
+apt-get install libqcustomplot-dev
 
 Email Messaging Prerequisites:
 
-`sudo apt-get install libssl-dev`
+sudo apt-get install libssl-dev
 
-`sudo apt-get install libboost-all-dev`
+sudo apt-get install libboost-all-dev
 
 Temp Sensor Prerequisites:
 
-`sudo apt-get install pigpio python-pigpio python3-pigpio`
+sudo apt-get install pigpio python-pigpio python3-pigpio
 
 
 <h1 align="center"> Installation </h1>  
 
 Run Cmake within directory:
 
-`cmake .`
+cmake .
 
 Run Make:
 
-`make`
+make
 
 Run Program:
 
-`sudo ./Trashbot`
+sudo ./Trashbot
 
 <h1 align="center"> Temperature Sensors </h1>
 
@@ -109,5 +94,5 @@ The Power wires were then connected to the same Power pin on the Raspberry Pi, s
 GPIO pins 23 and 24 were connected to the remaining Data wires.
 
 <p align="center">
-<img src="../images/GPIO-Pinout-Diagram-2.png"/>
+<img src="TrashBot/images/GPIO-Pinout-Diagram-2.png"/>
 </p>
