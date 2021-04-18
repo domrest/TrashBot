@@ -72,10 +72,17 @@ TrashBot is an open-source project which monitors the temperature of the trash b
         
 ## About The Project
 
+The inspiration of the project was taken from the waste management necessity for our planet. To target a zero waste planet, healthy habits with useful gadgets can help us move towards this global goal. 
+
+The most common issue we see is that in the public spaces and streets the trash bins are collected and emptied without even checking if they are full or not which leads to waste of resources. And sometimes, the trash bins would start overflowing and waste would collect and would continue to pile up ruining the natural and preserved spaces. To target this issue we started at a smaller level.
+
+We planned on implementing this idea at home by implementing a smart bin - a 'TrashBot' which upon measuring the temperature of the waste would detect the decay and send an alert to user to empty the trash. Along with creating a fun home automation project this will help create a healthy habit of being mindful of clearing the waste timely.
+
+This project can then be expanded for largescale implementation especially in residential area streets and parks. Before trash overflows and starts to decay spreading unpleasant smell in beautiful natural spaces, Trashbot will send an alert to the waste collectors.
 
 ## Getting Started
 
-There are 3 components to this project - `email alert`, `gui`, and `temperature sensors`.
+There are 3 components to this project - `Email Alert`, `Gui`, and `Temperature Sensors`.
 
 ### `Temperature Sensors` 
 More documentation about `Temperature Sensors` can be found [here](./docs/TemperatureSensors.md)
@@ -121,7 +128,7 @@ Run Program:
 
 
 ## Roadmap
-See the [open issues](https://github.com/domrest/ChoreBot/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/domrest/TrashBot/issues) for a list of proposed features (and known issues).
 
 ## Contribution
 Want to contribute? Great!
