@@ -29,17 +29,20 @@ This project can then be expanded for largescale implementation especially in re
 
 <h1 align="center"> Getting Started</h1> 
 
-
+<p align="center">
 There are 3 components to this project:
 </br>`Temperature Sensors`
 </br>`Email Alert`
 </br>`Gui`
+</p>
 
-To get the project up and running by yourself, follow these steps:
+
 
 
 <h1 align="center"> Prerequisites </h1>
 
+To get the project up and running by yourself, follow these steps:
+</br>
 GUI Prerequisites:
 </br>
 apt-get install qtdeclarative5-dev-tools
@@ -73,10 +76,10 @@ sudo ./Trashbot
 </br>
 <h1 align="center"> Temperature Sensors </h1>
 
-<h1 align="center"> Temperature Sensors Usage </h1> 
+<h2 align="center"> Usage </h2> 
 Trashbot receives its temperature readings via two Tsic 306 temperature sensors, which have an error of +-0.3 K and a sampling rate of 10 Hz. These are connected to the Pi via the ground and 5V Power, and with the data pins connected to seperate GPIO ports. The TSIC Temperature Sensors will communicate to the Pi passing the current temperature reading from the sensor through two packets of data transmitted at a Baud Rate of 8kHz This is done through the ZACWire Protocol. The Pi will interrupt on every bit received, storing the bit and decoding it into a temperature once both packets arrive.
 
-<h1 align="center"> Temperature Sensor Component </h1> 
+<h2 align="center"> Sensor Component </h2> 
 
 As stated the temperature sensors utilised within the system are two TSIC 306 sensors
 These can be found on <a href="https://uk.rs-online.com/web/p/temperature-humidity-sensor-ics/1218022/">RS-Online</a> for a price of £6.46 each.
@@ -87,15 +90,38 @@ These can be found on <a href="https://uk.rs-online.com/web/p/temperature-humidi
 </p>
 
 The sensor has Three pins:
-- Power
-- Data
-- Ground
-
+</br>- Power
+</br>- Data
+</br>- Ground
+</br>
 Which were soldered to distinct wires
-
+</br>
 The Power wires were then connected to the same Power pin on the Raspberry Pi, similarly to the Ground wires conencted to the same ground pin on the raspberryPi.
 GPIO pins 23 and 24 were connected to the remaining Data wires.
 
 <p align="center">
 <img src="images/GPIO-Pinout-Diagram-2.png"/>
+</p>
+<h1 align="center"> Graphical User Interface - GUI </h1>
+
+</br>
+A very quick and easy GUI can be made using QT widgets and C++ programming.
+</br>
+QT is a cross platform windows development environment for Linux/Windows
+and Mac.
+Elements in QT are Widgets which can contain anything form plots,
+buttons or text fields. They are classes. You can define your own widgets or
+use ready made ones.
+
+<h1 align="center">Qt and Qwt Widgets and Classes</h1>
+
+<p align="center">
+A layout in QT is defined in a declarative way as layout classes forexample horizontal or vertical layouts. From existing widgets like QwtThermo you can get a thermometer widget and then set its size and color accordingly using its functions.
+With various available classes like QLabel and Qfont you can change font size, colors and add labels to your GUI window.
+</br>
+Downloading the source code and after installing the required libraries mentioned in instructions above. You can get this handy GUI up and running in no time and can play around with  it to make it your own!
+</p>
+
+<p align="center">
+<img src="../images/Trashbot_screenshot.png" alt="gui">
 </p>
