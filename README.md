@@ -117,6 +117,10 @@ Temp Sensor Prerequisites:
 
 ### Installation
 
+Clone Repository:
+
+`git clone https://github.com/domrest/TrashBot.git`
+
 Run Cmake within directory:
 
 `cmake .`
