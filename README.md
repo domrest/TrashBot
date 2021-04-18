@@ -46,6 +46,10 @@ TrashBot is an open-source project which monitors the temperature of the trash b
 ![](https://img.shields.io/badge/Code-C++-informational?style=plastic&logo=<LOGO_NAME>&logoColor=white&color=1f425f)
 </div>
 </br>
+
+<div align="center">
+<a href="https://hackaday.io/project/179098-trashbot">  <img  src="images/hack2.png"  width="47" height="47">
+  </div>
 <!-- TABLE OF CONTENTS -->
 
 ## Table of contents
