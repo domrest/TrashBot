@@ -154,11 +154,11 @@ To fix a bug or enhance an existing module, follow these steps:
 Project is licensed under the MIT License. Click [License](./LICENSE) for more information.
 
 ## Contributors
-Domenico Restuccia 
+Domenico Restuccia - Responsible for: The temperature code, combing all software and responsible for all hardware.
 
-Rohma Khalid
+Rohma Khalid - Responsible for: GUI code, QT, Facebook marketing, marketing material, graphics and the logo, Readme.
 
-Ulvis Silavnieks
+Ulvis Silavnieks - Responsible for: The email code, instagram, twitter, demo video, website.
 
 Project Link: https://github.com/domrest/TrashBot
 
