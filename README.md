@@ -156,7 +156,7 @@ Project is licensed under the MIT License. Click [License](./LICENSE) for more i
 ## Contributors
 Domenico Restuccia - Responsible for: The temperature code, combing all software and responsible for all hardware.
 
-Rohma Khalid - Responsible for: GUI code, QT, Facebook marketing, marketing material, graphics and the logo, Readme.
+Rohma Khalid - Responsible for: GUI code, QT, Github Readme, Facebook marketing, marketing material, graphics and the logo, Hackaday and Hackster pages.
 
 Ulvis Silavnieks - Responsible for: The email code, instagram, twitter, demo video, website.
 
